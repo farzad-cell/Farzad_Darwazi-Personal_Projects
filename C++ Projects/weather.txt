@@ -1,0 +1,7 @@
+Monday 72 58 0.00
+Tuesday 75 60 0.00
+Wednesday 68 55 0.25
+Thursday 65 52 0.50
+Friday 70 54 0.10
+Saturday 78 62 0.00
+Sunday 80 65 0.00
