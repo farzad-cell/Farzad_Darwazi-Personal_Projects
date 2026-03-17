@@ -1,30 +1,18 @@
-﻿################################################################################
-# Universal Visual Studio & C++ Ignore Rules
-################################################################################
+﻿# Ignore build folders anywhere in the project
+**/x64/
+**/Debug/
+**/Release/
+**/.vs/
 
-# Ignore the entire .vs folder (hidden settings)
-.vs/
-
-# Ignore all Build Folders (where the "garbage" .exe and .obj live)
-[Xx]64/
-[Xx]86/
-[Dd]ebug/
-[Rr]elease/
-
-# Ignore specific temporary MSBuild files
-*.user
-*.filters
-*.aps
+# Ignore specific file types anywhere
+*.exe
+*.obj
 *.pdb
 *.ilk
 *.log
-*.obj
 *.tlog
 *.lastbuildstate
 *.recipe
 *.idb
-
-# If you want to keep your Project/Solution files, leave these OUT. 
-# If you ONLY want the .cpp file on GitHub, uncomment the lines below:
-# *.sln
-# *.vcxproj
+*.user
+*.filters
