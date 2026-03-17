@@ -1,18 +1,14 @@
-﻿# Ignore build folders anywhere in the project
-**/x64/
-**/Debug/
-**/Release/
-**/.vs/
+﻿# Kill the hidden VS folder
+.vs/
 
-# Ignore specific file types anywhere
-*.exe
-*.obj
-*.pdb
-*.ilk
-*.log
-*.tlog
-*.lastbuildstate
-*.recipe
-*.idb
-*.user
+# Kill the project configuration files
+*.sln
+*.vcxproj
 *.filters
+*.user
+
+# Kill the build folders
+[Xx]64/
+[Xx]86/
+Debug/
+Release/
