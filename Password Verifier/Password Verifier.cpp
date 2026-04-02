@@ -19,9 +19,6 @@
  * - Type '0' to exit the application safely.
  * =============================================================================
  */
-bool verifyPassword(std::wstring password) {
-    // Function logic here
-}
 
 // Include necessary headers for I/O, string manipulation, and Windows API
 #include <iostream>
@@ -49,9 +46,7 @@ int main()
 
 		// Prompt the user to enter a password
         std::wcout << L"Enter your password: ";
-        std::wcin >> password;
-        std::wcout << L"\n\n";
-
+        
 		// Check for input failure
         if(!(std::wcin >> password)) {
             std::wcout << L"Invalid input. Please enter a valid password.\n";
@@ -92,12 +87,7 @@ int main()
  * 3. A formatted criteria table is printed to the standard wide output (wcout).
  * =============================================================================
  */
-bool verifyPassword(std::wstring password) {
-    // ... function body ...
-}
-bool verifyPassword(std::wstring password) {
-    // ... your function code ...
-}
+
 bool verifyPassword(std::wstring password) {
 	// Initialize all criteria to red cross mark
     std::wstring size = L"\u274c"; std::wstring upper = L"\u274c";
